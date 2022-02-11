@@ -21,45 +21,11 @@ main h1 {
   padding: 1rem;
 }
 
-.search {
-  margin: 0 auto;
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+main div {
+  background: rgba(255, 255, 255, 0.6);
 }
 
-.search input {
-  padding: .5rem 1rem;
-  outline: none;
-  margin-top: .5rem;
-  font-size: 16px;
-  border: none;
-}
-
-.search .lat {
-  border-radius: 10px 0 0 10px;
-}
-
-.search button {
-  padding: .5rem 2rem;
-  border-radius: 0 10px 10px 0;
-  cursor: pointer;
-  border: none;
-  margin-top: .5rem;
-  font-size: 16px;
-  outline: none;
-}
-
-.search button:hover {
-  background: #c1c1c1;
-  -webkit-transition: .4s;
-  transition: .4s;
+main div h1 {
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */
